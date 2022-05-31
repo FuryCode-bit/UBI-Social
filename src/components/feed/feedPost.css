@@ -1,0 +1,124 @@
+.post {
+    width: 750px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.postTop {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 30px 15px 0px 15px;
+}
+
+.postAvatar {
+    margin-top: -10px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topLeft {
+    float: left;
+    width: 300px;
+}
+
+.topRight {
+    float: right;
+    width: 300px;
+}
+
+#composition-button {
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+.topInfo {
+    display: flex;
+    margin-top: 10px;
+}
+
+.topInfo > h4{
+    color: rgb(70, 70, 70);
+    font-size: medium;
+    margin-right: -30px;
+    margin-top: -2px;
+    position: relative;
+}
+
+.topInfo > p {
+    position: absolute;
+    font-size: small;
+    color: gray;
+    margin-top: 0px;
+}
+
+.postBot {
+    margin-top: -20px;
+    padding: 5px 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.postBot > p {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.postImage > img {
+    width: 95%;
+    padding: 5px 15px 5px 15px;
+}
+
+.postOptions {
+    margin-left: 15px;
+    padding-top: 10px;
+    display: flex;
+    font-size: medium;
+    padding: 5px;
+}
+
+.timestamp {
+    padding-top: 5px;
+    margin-left: 300px;
+    font-size: small;
+    color: gray;
+}
+
+.postOption{
+    color: #FD6708;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    cursor: pointer;
+    width: 10%;
+}
+
+.postOption > p {
+    margin-left: 10px;
+}
+
+.postOption:hover{
+    background-color: #eff2f5;
+    border-radius: 10px;
+}
+
+.community{ 
+    text-align: center;
+    font-size: 18px;
+    color:white;
+    border-radius: 25px;
+    background-color: #FD6708;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: 500;
+}
+
