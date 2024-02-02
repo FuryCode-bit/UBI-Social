@@ -5,5 +5,3 @@ Adicionar API ao projeto
 
 gerar PDF com infos dos perfis 
     https://react-pdf.org/
-
-https://www.youtube.com/watch?v=zQyrwxMPm88&t=461s
