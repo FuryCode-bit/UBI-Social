@@ -30,15 +30,15 @@ function Login() {
                     onSnapshot(q, (snapshot) => (
                         snapshot.docs.map(doc => ({ id: doc.id, data: doc.data() }))
                       ))
-                      console.log("userData: ", doc.data());
+                    //   console.log("userData: ", doc.data());
 
                       dispatch({
                             type: actionTypes.SET_USER,
                             user: doc.data(),
                         })
                     
-                    console.log("teste", result.user);
-                    console.log(doc.data());
+                    // console.log("teste", result.user);
+                    // console.log(doc.data());
 
                     navigate('/')
                     
