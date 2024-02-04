@@ -20,7 +20,6 @@ const AppRoutes = () => {
 
     
     return (
-        //Falta meter a rota segura
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<HomePage id={1}/>} />

@@ -20,7 +20,7 @@ function Register() {
         auth.signInWithPopup(provider)
         .then((result) => {
 
-            console.log("userData: ", result.user);
+            // console.log("userData: ", result.user);
 
             db.collection('users').doc(result.user.uid).set({
                 email: result.user.email,

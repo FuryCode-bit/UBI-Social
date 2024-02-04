@@ -21,19 +21,23 @@ function UploadToFeed() {
     const handleSubmit = (e) => {
         e.preventDefault();
         
-        db.collection('posts').add({
-            message: message,
-            timestamp: firebase.firestore.FieldValue.serverTimestamp(),
-            profilePic: user.profilePic,
-            username: user.displayName,
-            image: image,
-            CommunityId: comId,
-            userId: user.userId
-        })
-
-        setMessage("");
-        setImageUrl("");
-        setComId("");
+        if (!message.trim()) {
+            db.collection('posts').add({
+                message: message,
+                timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+                profilePic: user.profilePic,
+                username: user.displayName,
+                image: image,
+                CommunityId: comId,
+                userId: user.userId
+            })
+    
+            setMessage("");
+            setImageUrl("");
+            setComId("");
+          } else {
+            alert("Mensagem vazia!");
+          }
     };
 
   return (
