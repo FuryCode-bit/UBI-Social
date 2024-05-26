@@ -1,11 +1,11 @@
 <!-- Project UBI-Social: https://github.com/FuryCode-bit/UBI-Social -->
 <a name="readme-top"></a>
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Stargazers][stars-shield]][stars-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
+<div align="center">
+  [![Contributors][contributors-shield]][contributors-url]
+  [![Stargazers][stars-shield]][stars-url]
+  [![MIT License][license-shield]][license-url]
+  [![LinkedIn][linkedin-shield]][linkedin-url]
+</div>
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -58,9 +58,6 @@
 **Goals**: Design and develop a web application; Develop multi-user applications; Learn how to use API's;
 
 ### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 
 * [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
