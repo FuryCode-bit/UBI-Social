@@ -1,11 +1,10 @@
 <!-- Project UBI-Social: https://github.com/FuryCode-bit/UBI-Social -->
 <a name="readme-top"></a>
-<div align="center">
-  [![Contributors][contributors-shield]][contributors-url]
-  [![Stargazers][stars-shield]][stars-url]
-  [![MIT License][license-shield]][license-url]
-  [![LinkedIn][linkedin-shield]][linkedin-url]
-</div>
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Stargazers][stars-shield]][stars-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
